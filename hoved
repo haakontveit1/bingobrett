@@ -46,17 +46,7 @@ def login_form():
 # Function to generate the custom 7x7 table
 def generate_table():
     data = [
-        "Være krampefadder", "Ha vors", "Sitte i hangaren i 12 timer i strekk", "Bli tatt i billettkontroll", 
-        "Dra til noen på byen", "Ta 14 pils", "Dra til Sælbu shø", "Vinne i chandelier", "Løp et offisielt halvmaraton", 
-        "Drikke hver dag i en måned******", "Åre-tur", "Være med på avslutningsfest våren 2025", "Handshake med Knut*****", 
-        "Dra til vassfjellet", "Sovne på skolen/kontoret", "Få/ha kjæreste", "100 shots øl / 100 minutter", 
-        "Cava-søndag", "Game 8 timer i strekk", "Bade ute i vintermånedene", "Havne på legevakta", "Dra på DT-torsdag", 
-        "Kaste opp på Berg 41", "Være med på Skilooping", "Dra på Heling-ball", "Spille frisbee-golf", "Ta to sigg", 
-        "Ta en sigg", "Gummibåt på Nidelva", "Immball", "Kjøpe drikke på hvert rom på samf på én kveld", 
-        "Holde powerpoint for gjengen", "Gå hjem 18. mai* i dress/bunad", "Siggstafett", "Musikkquiz", "Winge en i gjengen", 
-        "Bli kasta ut fra utested", "Ta Hiroshima", "Dra på buldring", "Pils i park", "Sove over på Berg**", "Pule***", 
-        "Invitere på middag****", "NNN", "Delta på Drinking game from hell", "Spise vannmelon", "Ta handshake med vekter*****", 
-        "Filmkveld", "Dra på date"
+        #challenges (oppdateres)
     ]
     table_df = pd.DataFrame([data[i:i+7] for i in range(0, 49, 7)])
     return table_df
