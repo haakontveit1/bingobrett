@@ -1,0 +1,1 @@
+!!!WIP!!! Website I created in context of a challenge me and my co-students made during our last year at university. User creation and database management. Website was uploaded to my personal NTNU webpage (folk.ntnu.no)
